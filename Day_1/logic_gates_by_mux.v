@@ -1,7 +1,7 @@
 //=========synthesisable pure combinational manner=========//
 module mux_logic(
 input a,b,
-output reg and_g,or_g,nand_g,nor_g,xor_g,xnor_g);
+output  and_g,or_g,nand_g,nor_g,xor_g,xnor_g);
 assign and_g = a ? b:1'b0;
 assign or_g  = a ? 1'b1:b;
 assign nand_g = a ? (~b):1'b1;
