@@ -1,0 +1,139 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/rajes/OneDrive/Desktop/100-Days-Verilog-Challlenge/Day_9
+T_opt
+!s110 1783089593
+Vko8zM1Wkdm25CWY8fDld80
+04 2 4 work tb fast 0
+=1-e86538d46339-6a47c9b9-180-34b4
+Z1 o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;10.7c;67
+R0
+T_opt1
+!s110 1783089603
+VBAnLV;41a`<fBG^KePZHI0
+04 14 4 work lock_system_tb fast 0
+=1-e86538d46339-6a47c9c3-309-7168
+R1
+R2
+n@_opt1
+R3
+vcomp
+Z4 !s110 1783089602
+!i10b 1
+!s100 Y9F1^1SJ3Ul_Y9gkiGjQe0
+IT[LkFgCIAh[GU8g[oC8j01
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1783012575
+8comp.v
+Fcomp.v
+L0 1
+Z6 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z7 !s108 1783089602.000000
+Z8 !s107 tb.v|counter.v|comp.v|
+Z9 !s90 -v|Lock_system.v|comp.v|counter.v|tb.v|
+!i113 0
+Z10 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z11 !s92 -v Lock_system.v -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vcounter
+R4
+!i10b 1
+!s100 XB9522]:U=QnKTXc=3<YU3
+I5eI>@Eodb;DA50YbzZSlD1
+R5
+R0
+w1783089338
+8counter.v
+Fcounter.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R2
+vlock_system
+R4
+!i10b 1
+!s100 e]K;Idmn6L9Ki@17Hfj<50
+I[g7@]C>LZ?H_ZDmAi<i2i2
+R5
+R0
+w1783089587
+8Lock_system.v
+FLock_system.v
+L0 3
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R2
+vlock_system_tb
+R4
+!i10b 1
+!s100 DChn`;`5X;D]4GSeF]zbK3
+Ii2X7gWl_R7omMcRcPX9^B3
+R5
+R0
+w1783089599
+Z12 8tb.v
+Z13 Ftb.v
+L0 3
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R2
+vtb
+!s110 1783089592
+!i10b 1
+!s100 Y81;=l4F1AWSdamQL9cc:2
+Ic5oYgRj_>4F:IW;VO@hD<3
+R5
+R0
+w1783089166
+R12
+R13
+L0 1
+R6
+r1
+!s85 0
+31
+!s108 1783089592.000000
+R8
+R9
+!i113 0
+R10
+R11
+R2

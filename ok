@@ -1,0 +1,54 @@
+[33maea098c[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m lock_system
+[33md8c28b9[m detect 10 use of combinational circuits
+[33ma13f36b[m detect 10 use of combinational circuits
+[33m505bf87[m Update the file
+[33m342df16[m Updated files
+[33mb7fd1a1[m Initial commit
+[33m6507002[m Create tb.v
+[33m5c3f3b8[m Create booth_multipler.v
+[33mde6514e[m Create gray_code_tb.v
+[33m2b44404[m Create Gray_code_convert.v
+[33m80779d1[m Create Readme.md
+[33m5c6732d[m Add 16-bit Carry Lookahead Adder module
+[33mfec489e[m Create IC_7483.v
+[33ma8e68f0[m Create readme.md
+[33m46828e1[m Create tb.v
+[33m75e1fa9[m Add 4-to-1 multiplexer module
+[33m63fad29[m Create left_shifter.v
+[33mfe120d6[m Create README.md with HDL and Verilog overview
+[33m6b861cc[m Create Read_me.md
+[33m869b025[m Create N_gray_code_tb.v
+[33mfae1267[m Create N_gray_counter.v
+[33me6ad189[m Add read_me.md with wave form simulation details
+[33mf0d1b4a[m Create add_sub.v
+[33mb10f252[m Create full_adder.v
+[33m288b117[m Create IC74LS83.v
+[33mefe7af7[m Add mux_logic_gate.md with simulation and schematic
+[33m0cc203a[m Add testbench for mux logic gate
+[33m31cb48b[m Add multiplexer logic gate module in Verilog
+[33m895d670[m Delete N_bit_gray_code_tb.v
+[33m7119f39[m Delete N_bit_gray_code.v
+[33mf777a65[m Delete N-bit Gray code.md
+[33m3e3f353[m Delete full_adder.v
+[33mb6f6e31[m Delete adder_ Subtrac.v
+[33m78f7c8a[m Delete add_sub_tb.v
+[33mf5ae177[m Delete add_sub.md
+[33m1cd8243[m Delete 74LS83.v
+[33md819f77[m Delete test_bench.v
+[33m435c108[m Delete mux_logic.md
+[33m8a973cc[m Delete logic_gates_by_mux.v
+[33m8c89939[m Add images to N-bit Gray code documentation
+[33m618c5ab[m Create N_bit_gray_code_tb.v
+[33mc72c16c[m Create N_bit_gray_code.v
+[33ma7ff419[m Create add_sub.md
+[33mc9aee4f[m Create add_sub_tb.v
+[33mb117c10[m Create 74LS83.v
+[33mdca8e03[m Create full_adder.v
+[33mf239b21[m Update and rename adder_ Subtrac_structural  manner.v to adder_ Subtrac.v
+[33m7dd7883[m Add adder and subtractor modules in Verilog
+[33m62c73d4[m Add simulation waveform and schematic view images
+[33m3e476c5[m Update logic_gates_by_mux.v
+[33m1a07351[m Rename readme.md to mux_logic.md
+[33m9dacff2[m Create readme.md
+[33m992acda[m Add testbench for mux_logic module
+[33m83dae3b[m Refactor mux_logic for better combinational logic handling
