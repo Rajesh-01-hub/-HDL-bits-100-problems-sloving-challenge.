@@ -1,15 +1,17 @@
-Start time: 20:10:02 on Jul 03,2026
-qverilog -v Lock_system.v comp.v counter.v tb.v 
--- Compiling module comp
+Start time: 20:39:33 on Jul 03,2026
+qverilog -v comp.v counter.v Lock_system.v tb.v 
 -- Compiling module counter
--- Compiling module lock_system_tb
--- Scanning library file 'Lock_system.v'
+-- Compiling module comp
+** Warning: ** while parsing file included at Lock_system.v(2)
+** at counter.v(1): (qverilog-2275) 'counter' already exists and will be overwritten.
+-- Compiling module counter
 -- Compiling module lock_system
+-- Compiling module lock_system_tb
 
 Top level modules:
 	lock_system_tb
 # vsim -lib work work.lock_system_tb -c -do "run -all; quit -f" -appendlog -l qverilog.log -vopt 
-# ** Note: (vsim-3812) Design is being optimized...
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
 # //  Questa Sim-64
 # //  Version 10.7c win64 Aug 18 2018
 # //
@@ -41,5 +43,5 @@ Top level modules:
 # Time=145000 | rst=0 | set_p=10101010 | en_p=10101010 | y=1 | count=0 | fail_t=0
 # ** Note: $finish    : tb.v(81)
 #    Time: 155 ns  Iteration: 0  Instance: /lock_system_tb
-# End time: 20:10:04 on Jul 03,2026, Elapsed time: 0:00:02
-# Errors: 0, Warnings: 0
+# End time: 20:39:36 on Jul 03,2026, Elapsed time: 0:00:03
+# Errors: 0, Warnings: 1

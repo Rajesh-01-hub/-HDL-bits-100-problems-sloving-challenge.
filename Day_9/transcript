@@ -1,0 +1,19 @@
+# vsim work.lock_system_tb 
+# Start time: 20:31:49 on Jul 03,2026
+# Loading work.lock_system_tb
+# Loading work.lock_system
+# Loading work.comp
+# Loading work.counter
+add wave -r /*
+run -alladd wave -r /*
+# Unknown option: alladd
+# ** Error: (vsim-4005) Invalid argument '-alladd'.
+# Usage: run [<timesteps> [<time_units>]] | -all | -continue | -next | -step | -over | -out | -init | -final
+run -all-all
+# Unknown option: all-all
+# ** Error: (vsim-4005) Invalid argument '-all-all'.
+# Usage: run [<timesteps> [<time_units>]] | -all | -continue | -next | -step | -over | -out | -init | -final
+ccls
+# invalid command name "ccls"
+cls
+# 
