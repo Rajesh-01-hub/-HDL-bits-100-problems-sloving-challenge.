@@ -1,0 +1,72 @@
+Start time: 18:40:08 on Jul 06,2026
+qverilog CSA.v FA.v FA_4.v mux.v CSA_tb.sv 
+-- Compiling module FA
+-- Compiling module FA_4
+-- Compiling module mux
+-- Compiling module CSA
+** Warning: FA.v(1): (qverilog-2275) 'FA' already exists and will be overwritten.
+-- Compiling module FA
+** Warning: ** while parsing file included at FA_4.v(1)
+** at FA.v(1): (qverilog-2275) 'FA' already exists and will be overwritten.
+-- Compiling module FA
+** Warning: FA_4.v(2): (qverilog-2275) 'FA_4' already exists and will be overwritten.
+-- Compiling module FA_4
+** Warning: mux.v(1): (qverilog-2275) 'mux' already exists and will be overwritten.
+-- Compiling module mux
+-- Compiling interface ca_if
+-- Compiling package CSA_tb_sv_unit
+-- Compiling module tb
+
+Top level modules:
+	tb
+# vsim -lib work work.CSA_tb_sv_unit work.tb -c -do "run -all; quit -f" -appendlog -l qverilog.log -vopt 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: CSA.v(6): (vopt-2241) Connection width does not match width of port 'cin'. The port definition is at: FA_4.v(2).
+# ** Warning: CSA.v(7): (vopt-2241) Connection width does not match width of port 'cin'. The port definition is at: FA_4.v(2).
+# ** Warning: CSA.v(9): (vopt-2241) Connection width does not match width of port 'a'. The port definition is at: mux.v(1).
+# ** Warning: CSA.v(9): (vopt-2241) Connection width does not match width of port 'b'. The port definition is at: mux.v(1).
+# ** Warning: CSA.v(9): (vopt-2241) Connection width does not match width of port 'out'. The port definition is at: mux.v(1).
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.CSA_tb_sv_unit(fast)
+# Loading work.tb(fast)
+# Loading work.CSA(fast)
+# Loading work.ca_if(fast)
+# run -all
+# [1]->a=3||b=8||cin=1
+# {cout,sum}=1011(11)
+# [2]->a=2||b=11||cin=0
+# {cout,sum}=1101(13)
+# [3]->a=13||b=10||cin=0
+# {cout,sum}=10111(23)
+# [4]->a=12||b=5||cin=1
+# {cout,sum}=10001(17)
+# [5]->a=15||b=4||cin=0
+# {cout,sum}=10011(19)
+# [6]->a=14||b=7||cin=1
+# {cout,sum}=10101(21)
+# [7]->a=9||b=6||cin=1
+# {cout,sum}=1111(15)
+# [8]->a=8||b=1||cin=0
+# {cout,sum}=1001(9)
+# [9]->a=11||b=0||cin=1
+# {cout,sum}=1011(11)
+# [10]->a=10||b=3||cin=0
+# {cout,sum}=1101(13)
+# ** Note: $finish    : CSA_tb.sv(51)
+#    Time: 200 ns  Iteration: 0  Instance: /tb
+# End time: 18:40:11 on Jul 06,2026, Elapsed time: 0:00:03
+# Errors: 0, Warnings: 9

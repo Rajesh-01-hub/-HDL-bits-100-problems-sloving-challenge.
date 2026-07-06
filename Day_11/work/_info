@@ -1,0 +1,180 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/rajes/OneDrive/Desktop/100-Days-Verilog-Challlenge/Day_11
+T_opt
+!s110 1783343410
+VT_T5GE7m>@`4l9oZ0=a8n2
+04 14 4 work CSA_tb_sv_unit fast 0
+04 2 4 work tb fast 0
+=1-e86538d46339-6a4ba931-32b-ac84
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+Yca_if
+Z2 DXx6 sv_std 3 std 0 22 d=_JfHTnXCN[H5FjiaJJc0
+Z3 !s110 1783343408
+!i10b 1
+!s100 lZPJ?20oK`?[5M8QPWdzO2
+I1SaK2^?h;7Yf_0e`RZWQm3
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 !s105 CSA_tb_sv_unit
+S1
+R0
+Z6 w1783343380
+Z7 8CSA_tb.sv
+Z8 FCSA_tb.sv
+L0 3
+Z9 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z10 !s108 1783343408.000000
+Z11 !s107 CSA_tb.sv|mux.v|FA_4.v|FA.v|CSA.v|
+Z12 !s90 CSA.v|FA.v|FA_4.v|mux.v|CSA_tb.sv|
+!i113 0
+Z13 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vCSA
+R3
+!i10b 1
+!s100 ^aXD`YdIAG9bcmTTDG8Rl3
+INURgCzSRhfS3IEP=fGgjz3
+R4
+R0
+w1783343135
+8CSA.v
+FCSA.v
+L0 3
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R1
+n@c@s@a
+XCSA_tb_sv_unit
+!s115 ca_if
+R2
+Vg<b:2Lk_Gj276FhAAO>7O3
+r1
+!s85 0
+!i10b 1
+!s100 hF<m6Dm5<[<3QWc@=9_QS3
+Ig<b:2Lk_Gj276FhAAO>7O3
+!i103 1
+S1
+R0
+R6
+R7
+R8
+L0 10
+R9
+31
+R10
+R11
+R12
+!i113 0
+R13
+R1
+n@c@s@a_tb_sv_unit
+vFA
+R3
+!i10b 1
+!s100 ;aVCGEj9B8^NCAFeSH1QF2
+IE;RiVQkJBhHSo<Z2f`fdZ0
+R4
+R0
+Z14 w1783342674
+8FA.v
+FFA.v
+L0 1
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R1
+n@f@a
+vFA_4
+R3
+!i10b 1
+!s100 ]z;O;Y6dDQ4^n9R[izkCE2
+ILB5D<5;0az7ZoYG[c8J4m2
+R4
+R0
+w1783343102
+8FA_4.v
+FFA_4.v
+L0 2
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R1
+n@f@a_4
+vmux
+R3
+!i10b 1
+!s100 JDRoCT2U=D8bzl`d]H7g10
+IflLZ^L6CSgX2oP8Z@7GCK3
+R4
+R0
+R14
+8mux.v
+Fmux.v
+L0 1
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R1
+vtb
+R2
+DXx4 work 14 CSA_tb_sv_unit 0 22 g<b:2Lk_Gj276FhAAO>7O3
+R4
+r1
+!s85 0
+!i10b 1
+!s100 0OnIbVX4Dhik6Saa5HdER1
+IP@Vc]2Z;3eT<:UP9JEkjS2
+R5
+S1
+R0
+R6
+R7
+R8
+L0 38
+R9
+31
+R10
+R11
+R12
+!i113 0
+R13
+R1
