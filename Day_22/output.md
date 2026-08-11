@@ -4,7 +4,6 @@
 
 The circuit takes a 5-bit input:
 
-```text
 
 ![alt text](<Screenshot 2026-08-11 223857.png>)
 
