@@ -6,8 +6,8 @@ The circuit takes a 5-bit input:
 
 ```text
 
-![alt text](image.png)
+![alt text](<Screenshot 2026-08-11 223857.png>)
 
-![alt text](image-1.png)
+![alt text](<Screenshot 2026-08-11 223745.png>)
 
-![alt text](image-2.png)
+![alt text](<Screenshot 2026-08-11 223615.png>)
